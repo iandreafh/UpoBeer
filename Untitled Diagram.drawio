@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-08T13:27:58.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="9l8kCtLZfyueLehLgK7x" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-08T13:44:41.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="vpIefCRpwTVVDQQTUvJV" version="12.4.9" type="github">
   <diagram id="Zlw6RQEjlxsdaL2r8nvr" name="Page-1">
     <mxGraphModel dx="1841" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,17 @@
         </mxCell>
         <mxCell id="eSXySc0nS1I4m5UJ5GSd-35" value="altaCliente(Cliente): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="eSXySc0nS1I4m5UJ5GSd-32" vertex="1">
           <mxGeometry y="168" width="260" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="T5-J3He7SR6inXNx5Zn7-4" value="1" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.804;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;endFill=0;" edge="1" parent="eSXySc0nS1I4m5UJ5GSd-32" target="eSXySc0nS1I4m5UJ5GSd-8">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint y="182" as="sourcePoint"/>
+            <mxPoint x="160" y="182" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5-J3He7SR6inXNx5Zn7-5" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="T5-J3He7SR6inXNx5Zn7-4">
+          <mxGeometry x="-0.9065" relative="1" as="geometry">
+            <mxPoint y="-12.93" as="offset"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fAADa2Qv2Gw01qFuHc8v-1" value="bajaCliente(sDNI): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="eSXySc0nS1I4m5UJ5GSd-32" vertex="1">
           <mxGeometry y="194" width="260" height="26" as="geometry"/>
@@ -337,6 +348,25 @@
         </mxCell>
         <mxCell id="Tzox9ZsJY_UtpYgfPLW8-42" value="validarCantidad(int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Tzox9ZsJY_UtpYgfPLW8-36" vertex="1">
           <mxGeometry y="138" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="T5-J3He7SR6inXNx5Zn7-6" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-333.5" y="-781" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="T5-J3He7SR6inXNx5Zn7-10" value="1" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.333;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;endFill=0;" edge="1" parent="1" target="eSXySc0nS1I4m5UJ5GSd-23">
+          <mxGeometry x="0.9306" y="19" relative="1" as="geometry">
+            <mxPoint x="-396" y="-580" as="sourcePoint"/>
+            <mxPoint x="-329.82352941176464" y="-749.9411764705882" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="-390" y="-551"/>
+              <mxPoint x="-339" y="-551"/>
+            </Array>
+            <mxPoint y="1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5-J3He7SR6inXNx5Zn7-11" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="T5-J3He7SR6inXNx5Zn7-10">
+          <mxGeometry x="-0.9065" relative="1" as="geometry">
+            <mxPoint x="10.41" y="-1.2899999999999991" as="offset"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
